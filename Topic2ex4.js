@@ -66,14 +66,15 @@ class LaptopEditing extends editingCapability(Laptop) {
     super(brand, type, password)
   }
   run(){
-    return `${super.run()}, ${this.gaming()}, and ${this.editing()}}`
+    return `${super.run()}, ${this.editing()}}`
   }
 }
 
 let laptop1 = new Laptop ('Acer', 'Normal Laptop', 123)
 let laptop2 = new LaptopGaming ('MSI', 'Hardcore Laptop', 456)
+console.log(laptop2.run())
+
 
 let laptop3 = new LaptopGaming ("Alienware", "Hardcore Laptop", 678)
-laptop3.run()
-laptop3.gaming()
-laptop3.editing()
+console.log(laptop3.run())
+console.log(laptop3.gaming())
