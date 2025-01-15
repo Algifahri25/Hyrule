@@ -78,3 +78,6 @@ console.log(laptop2.run())
 let laptop3 = new LaptopGaming ("Alienware", "Hardcore Laptop", 678)
 console.log(laptop3.run())
 console.log(laptop3.gaming())
+
+let laptop4 = new LaptopEditing ("HP", "Editing Laptop", 789)
+console.log(laptop4.run())
