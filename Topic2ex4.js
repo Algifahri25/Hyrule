@@ -72,6 +72,8 @@ class LaptopEditing extends editingCapability(Laptop) {
 
 let laptop1 = new Laptop ('Acer', 'Normal Laptop', 123)
 let laptop2 = new LaptopGaming ('MSI', 'Hardcore Laptop', 456)
+console.log(laptop2.run())
+
 
 let laptop3 = new LaptopGaming ("Alienware", "Hardcore Laptop", 678)
 console.log(laptop3.run())
